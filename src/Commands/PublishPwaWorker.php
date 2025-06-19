@@ -86,8 +86,8 @@ class PublishPwaWorker extends Command
             $this->info("  ✔ [Partial] \033[1m{$filename}\033[0m created.\n");
         }
 
-        $iconsStubPath = $resourceStubPath . '\\icons';
-        $iconsDestPath = $publicPath . '\\icons';
+        $iconsStubPath = $resourceStubPath . '\\assets';
+        $iconsDestPath = $publicPath . '\\assets';
 
         if (!$this->files->exists($iconsDestPath)) {
             $this->files->makeDirectory($iconsDestPath, 0755, true);
