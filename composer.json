@@ -20,7 +20,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "Marteen\\Pwavel\\PwavelServiceProvider"
+          "Marteen\\Pwavel\\Providers\\PwavelServiceProvider"
         ],
         "aliases": {
           "Pwavel": "Marteen\\Pwavel"
