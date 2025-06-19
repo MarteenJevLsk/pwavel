@@ -1,0 +1,3 @@
+<meta name="theme-color" content="#1b1b1b"/>
+<link rel="apple-touch-icon" href="{{ asset('/icons/icon-512.png') }}">
+<link rel="manifest" href="{{ asset('/manifest.json') }}">

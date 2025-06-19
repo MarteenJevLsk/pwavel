@@ -1,0 +1,15 @@
+<script src="{{ asset('/sw.js') }}"></script>
+<script>
+   if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("{{ asset('/sw.js') }}").then(
+      (registration) => {
+         console.log("[log]: Service worker registration successfully:", registration);
+      },
+      (error) => {
+         console.error(`[log]: Service worker registration failed: ${error}`);
+      },
+    );
+  } else {
+     console.error("[log]: Service worker are not supported on your browser.");
+  }
+</script>

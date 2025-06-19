@@ -1,0 +1,58 @@
+{
+    "id": "/",
+    "name": "Pwavel",
+    "short_name": "pwavel",
+    "start_url": "/",
+    "scope" : "/",
+    "background_color": "#2b2b2b",
+    "description": "Create Web App for Laravel Support.",
+    "display_override": ["window-control-overlay", "minimal-ui"],
+    "display": "standalone",
+    "theme_color": "#2b2b2b",
+    "lang" : "en",
+    "categories": ["laravel", "pwa", "lorem", "ipsum"],
+    "icons": [
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+    {
+      "name": "dashboard",
+      "short_name": "Dashboard",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "...",
+      "short_name": "...",
+      "url": "/...",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+    ],
+    "screenshots" : [
+    {
+      "src": "/screenshot/mobile-1.png",
+      "sizes": "720x1480",
+      "type": "image/jpg",
+      "form_factor": "wide",
+      "label": "Mobile Template"
+    },
+    {
+      "src": "/screenshot/desktop-1.png",
+      "sizes": "650x430",
+      "type": "image/jpg",
+      "form_factor": "wide",
+      "label": "Desktop Template"
+    }
+    ]
+}
