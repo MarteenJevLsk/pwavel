@@ -1,5 +1,5 @@
 # PwaVel
-![v.1.6.8](https://img.shields.io/badge/v.1.6.8-432959?style=for-the-badge)
+![v.1.6.9](https://img.shields.io/badge/v.1.6.9-432959?style=for-the-badge)
 
 ## Installation
 

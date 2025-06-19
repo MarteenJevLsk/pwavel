@@ -141,7 +141,7 @@ if (!$this->files->exists($screenshotSource)) {
 
     foreach ($images as $image) {
         $fileName = $image->getFilename();
-        $destFile = $screenshotDest . '/' . $fileName;
+        $destFile = $screenshotDest . '\\' . $fileName;
 
         if ($this->files->exists($destFile)) {
             $this->warn("  \033[0;43;37m WARN \033[0m Image already exists: \033[1m{$destFile}\033[0m \n");
